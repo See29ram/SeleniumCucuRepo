@@ -40,7 +40,7 @@ formatter.match({
   "location": "SearchStepDefn.i_am_navigating_to(String)"
 });
 formatter.result({
-  "duration": 22112124200,
+  "duration": 23480214700,
   "status": "passed"
 });
 formatter.match({
@@ -53,7 +53,7 @@ formatter.match({
   "location": "SearchStepDefn.i_look_for_and_click_Search(String)"
 });
 formatter.result({
-  "duration": 759228900,
+  "duration": 6589511000,
   "status": "passed"
 });
 });

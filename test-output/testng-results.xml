@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23653" started-at="2020-04-13T06:31:04Z" finished-at="2020-04-13T06:31:27Z">
+  <suite name="Default suite" duration-ms="30898" started-at="2020-04-13T14:39:04Z" finished-at="2020-04-13T14:39:35Z">
     <groups>
       <group name="cucumber">
-        <method signature="CustomAbstractTestNGCucumberTestsWithTag.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.webdriverlearn.custom.CustomSearchRunnerWithTag@5e4c8041]" name="feature" class="com.webdriverlearn.custom.CustomAbstractTestNGCucumberTestsWithTag"/>
+        <method signature="CustomAbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.webdriver.runner.RunnerWithSearch@71c8becc]" name="feature" class="com.webdriverlearn.custom.CustomAbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="23653" started-at="2020-04-13T06:31:04Z" finished-at="2020-04-13T06:31:27Z">
-      <class name="com.webdriverlearn.custom.CustomSearchRunnerWithTag">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.webdriverlearn.custom.CustomSearchRunnerWithTag@5e4c8041]" name="setUpClass" is-config="true" duration-ms="375" started-at="2020-04-13T06:31:04Z" finished-at="2020-04-13T06:31:04Z">
+    <test name="Default test" duration-ms="30898" started-at="2020-04-13T14:39:04Z" finished-at="2020-04-13T14:39:35Z">
+      <class name="com.webdriver.runner.RunnerWithSearch">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.webdriver.runner.RunnerWithSearch@71c8becc]" name="setUpClass" is-config="true" duration-ms="461" started-at="2020-04-13T14:39:04Z" finished-at="2020-04-13T14:39:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.webdriverlearn.custom.CustomSearchRunnerWithTag@5e4c8041]" name="feature" duration-ms="22987" started-at="2020-04-13T06:31:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-13T06:31:27Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.webdriver.runner.RunnerWithSearch@71c8becc]" name="feature" duration-ms="30210" started-at="2020-04-13T14:39:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-13T14:39:35Z">
           <params>
             <param index="0">
               <value>
@@ -25,11 +25,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.webdriverlearn.custom.CustomSearchRunnerWithTag@5e4c8041]" name="tearDownClass" is-config="true" duration-ms="144" started-at="2020-04-13T06:31:27Z" finished-at="2020-04-13T06:31:27Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.webdriver.runner.RunnerWithSearch@71c8becc]" name="tearDownClass" is-config="true" duration-ms="68" started-at="2020-04-13T14:39:35Z" finished-at="2020-04-13T14:39:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.webdriverlearn.custom.CustomSearchRunnerWithTag -->
+      </class> <!-- com.webdriver.runner.RunnerWithSearch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
