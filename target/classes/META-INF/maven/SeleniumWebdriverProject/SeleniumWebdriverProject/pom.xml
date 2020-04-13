@@ -152,6 +152,10 @@
 
 					</executions>
 					<configuration>
+					<systemPropertyVariables>
+					  <FeatureName>${feature.name}</FeatureName>
+					
+					</systemPropertyVariables>
 					<forkCount>3</forkCount>
 					<reuseForks>false</reuseForks>
 					<testFailureIgnore>false</testFailureIgnore>
