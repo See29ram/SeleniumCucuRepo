@@ -161,7 +161,7 @@
 					<testFailureIgnore>false</testFailureIgnore>
 					
 					<includes>
-					  <!-- <include>**/*Runner.java</include> -->
+					  <!-- <include>**/SearchEngineRunner.java</include> -->
 					  <include>${runner.name}</include>
 					</includes>
 						<suiteXmlFiles>
