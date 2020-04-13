@@ -38,7 +38,7 @@ public class ReadConfig implements IReader {
 			prop.load(fis);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			throw new RuntimeException(e.getMessage());
+			throw new RuntimeException(e.getMessage()+"Error Added here");
 		}
 		return prop;
 
