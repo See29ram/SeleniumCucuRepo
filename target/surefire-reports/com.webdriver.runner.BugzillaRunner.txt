@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.webdriver.runner.BugzillaRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 128.392 s <<< FAILURE! - in com.webdriver.runner.BugzillaRunner
+feature(com.webdriver.runner.BugzillaRunner)  Time elapsed: 123.905 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: Title Failed
+Caused by: java.lang.AssertionError: Title Failed
+

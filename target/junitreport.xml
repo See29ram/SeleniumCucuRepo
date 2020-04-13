@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="123.389964">
+<testcase classname="Bugzilla bug creation" name="Bug creating in Bugzilla" time="40.762033">
+<failure message="java.lang.AssertionError: Title Failed&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at com.webdriverlearn.pgfactory.BugStepDefn.bugzilla_page_Title_should_be(BugStepDefn.java:42)&#13;&#10;&#9;at ✽.And Bugzilla_Page Title should be &quot;Log in to Bugzilla&quot;(src/main/java/com/webdriverlearn/pgfactory/BugCreation.feature:5)&#13;&#10;"><![CDATA[Given Bugzilla_I am at Bugzilla Homepage....................................passed
+Then Bugzilla_I click on file a bug and navigate to login page..............passed
+And Bugzilla_Page Title should be "Log in to Bugzilla"......................failed
+Then Bugzilla_I enter login details and navigate to Product Selection.......skipped
+Then Bugzilla_I Testng Product and navigate submit bug page.................skipped
+Then Bugzilla_I Enter Componente as "Comp2" Version as "v1" Sev as "minor" HW as "Other" Os as "Linux" Priority as "Low" Sum "Summary Done" Desc "Description done".skipped
+
+StackTrace:
+java.lang.AssertionError: Title Failed
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.webdriverlearn.pgfactory.BugStepDefn.bugzilla_page_Title_should_be(BugStepDefn.java:42)
+	at ✽.And Bugzilla_Page Title should be "Log in to Bugzilla"(src/main/java/com/webdriverlearn/pgfactory/BugCreation.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="Bugzilla bug creation" name="TestProduct Bug Creation" time="44.389683">
+<system-out><![CDATA[Given Bugzilla_I am at Bugzilla Homepage....................................passed
+Then Bugzilla_I click on file a bug and navigate to login page..............passed
+Then Bugzilla_I enter login details and navigate to Product Selection.......passed
+Then TestProduct Test Product and navigate submit bug page..................passed
+Then TestProduct Enter Componente as "Comp2" Version as "v1" Sev as "minor" HW as "Other" Os as "Linux" Priority as "Low" Sum "Summary Done" Desc "Description done".passed
+And TestProduct click on Submit Bug.........................................passed
+And TestProduct am summary page and i logout................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Bugzilla bug creation" name="TestProduct2 Bug Creation" time="38.238248">
+<system-out><![CDATA[Given Bugzilla_I am at Bugzilla Homepage....................................passed
+Then Bugzilla_I click on file a bug and navigate to login page..............passed
+Then Bugzilla_I enter login details and navigate to Product Selection.......passed
+Then Bugzilla_I click on Home button........................................passed
+Then Bugzilla_I click on New Button.........................................passed
+Then TestProduct Test Product and navigate submit bug page..................passed
+Then TestProduct Enter Componente as "Comp2" Version as "v1" Sev as "minor" HW as "Other" Os as "Linux" Priority as "Low" Sum "Summary Done" Desc "Description done".passed
+And TestProduct click on Submit Bug.........................................passed
+And TestProduct am summary page and i logout................................passed
+]]></system-out>
+</testcase>
+</testsuite>
