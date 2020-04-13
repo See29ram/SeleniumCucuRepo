@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="123.389964">
-<testcase classname="Bugzilla bug creation" name="Bug creating in Bugzilla" time="40.762033">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="150.828784">
+<testcase classname="Bugzilla bug creation" name="Bug creating in Bugzilla" time="65.051148">
 <failure message="java.lang.AssertionError: Title Failed&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at com.webdriverlearn.pgfactory.BugStepDefn.bugzilla_page_Title_should_be(BugStepDefn.java:42)&#13;&#10;&#9;at ✽.And Bugzilla_Page Title should be &quot;Log in to Bugzilla&quot;(src/main/java/com/webdriverlearn/pgfactory/BugCreation.feature:5)&#13;&#10;"><![CDATA[Given Bugzilla_I am at Bugzilla Homepage....................................passed
 Then Bugzilla_I click on file a bug and navigate to login page..............passed
 And Bugzilla_Page Title should be "Log in to Bugzilla"......................failed
@@ -15,7 +15,7 @@ java.lang.AssertionError: Title Failed
 	at ✽.And Bugzilla_Page Title should be "Log in to Bugzilla"(src/main/java/com/webdriverlearn/pgfactory/BugCreation.feature:5)
 ]]></failure>
 </testcase>
-<testcase classname="Bugzilla bug creation" name="TestProduct Bug Creation" time="44.389683">
+<testcase classname="Bugzilla bug creation" name="TestProduct Bug Creation" time="46.191655">
 <system-out><![CDATA[Given Bugzilla_I am at Bugzilla Homepage....................................passed
 Then Bugzilla_I click on file a bug and navigate to login page..............passed
 Then Bugzilla_I enter login details and navigate to Product Selection.......passed
@@ -25,7 +25,7 @@ And TestProduct click on Submit Bug.........................................pass
 And TestProduct am summary page and i logout................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Bugzilla bug creation" name="TestProduct2 Bug Creation" time="38.238248">
+<testcase classname="Bugzilla bug creation" name="TestProduct2 Bug Creation" time="39.585981">
 <system-out><![CDATA[Given Bugzilla_I am at Bugzilla Homepage....................................passed
 Then Bugzilla_I click on file a bug and navigate to login page..............passed
 Then Bugzilla_I enter login details and navigate to Product Selection.......passed

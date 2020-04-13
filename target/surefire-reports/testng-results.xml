@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="126015" started-at="2020-04-13T10:28:17Z" finished-at="2020-04-13T10:30:23Z">
+  <suite name="Surefire suite" duration-ms="153159" started-at="2020-04-13T11:20:56Z" finished-at="2020-04-13T11:23:29Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.webdriver.runner.BugzillaRunner@2cb4c3ab]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="126015" started-at="2020-04-13T10:28:17Z" finished-at="2020-04-13T10:30:23Z">
+    <test name="Surefire test" duration-ms="153159" started-at="2020-04-13T11:20:56Z" finished-at="2020-04-13T11:23:29Z">
       <class name="com.webdriver.runner.BugzillaRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.webdriver.runner.BugzillaRunner@2cb4c3ab]" name="setUpClass" is-config="true" duration-ms="1450" started-at="2020-04-13T10:28:17Z" finished-at="2020-04-13T10:28:19Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.webdriver.runner.BugzillaRunner@2cb4c3ab]" name="setUpClass" is-config="true" duration-ms="1234" started-at="2020-04-13T11:20:56Z" finished-at="2020-04-13T11:20:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.webdriver.runner.BugzillaRunner@2cb4c3ab]" name="feature" duration-ms="123890" started-at="2020-04-13T10:28:19Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-13T10:30:23Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.webdriver.runner.BugzillaRunner@2cb4c3ab]" name="feature" duration-ms="151351" started-at="2020-04-13T11:20:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-13T11:23:29Z">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@ at ✽.And Bugzilla_Page Title should be "Log in to Bugzilla"(src/main/java/com/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.webdriver.runner.BugzillaRunner@2cb4c3ab]" name="tearDownClass" is-config="true" duration-ms="229" started-at="2020-04-13T10:30:23Z" finished-at="2020-04-13T10:30:23Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.webdriver.runner.BugzillaRunner@2cb4c3ab]" name="tearDownClass" is-config="true" duration-ms="170" started-at="2020-04-13T11:23:29Z" finished-at="2020-04-13T11:23:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 17005295500,
+  "duration": 37710529100,
   "status": "passed"
 });
 formatter.scenario({
@@ -52,14 +52,14 @@ formatter.match({
   "location": "BugStepDefn.bugzilla_i_am_at_Bugzilla_Homepage()"
 });
 formatter.result({
-  "duration": 10951748800,
+  "duration": 11720366900,
   "status": "passed"
 });
 formatter.match({
   "location": "BugStepDefn.bugzilla_i_click_on_file_a_bug_and_navigate_to_login_page()"
 });
 formatter.result({
-  "duration": 8102581100,
+  "duration": 7155918000,
   "status": "passed"
 });
 formatter.match({
@@ -72,7 +72,7 @@ formatter.match({
   "location": "BugStepDefn.bugzilla_page_Title_should_be(String)"
 });
 formatter.result({
-  "duration": 9949000,
+  "duration": 7945400,
   "error_message": "java.lang.AssertionError: Title Failed\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat com.webdriverlearn.pgfactory.BugStepDefn.bugzilla_page_Title_should_be(BugStepDefn.java:42)\r\n\tat ✽.And Bugzilla_Page Title should be \"Log in to Bugzilla\"(src/main/java/com/webdriverlearn/pgfactory/BugCreation.feature:5)\r\n",
   "status": "failed"
 });
@@ -130,15 +130,15 @@ formatter.result({
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 4692458600,
+  "duration": 8456388400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 11587460200,
+  "duration": 17286894100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 63800,
+  "duration": 76400,
   "status": "passed"
 });
 formatter.scenario({
@@ -194,28 +194,28 @@ formatter.match({
   "location": "BugStepDefn.bugzilla_i_am_at_Bugzilla_Homepage()"
 });
 formatter.result({
-  "duration": 5204479700,
+  "duration": 5440855400,
   "status": "passed"
 });
 formatter.match({
   "location": "BugStepDefn.bugzilla_i_click_on_file_a_bug_and_navigate_to_login_page()"
 });
 formatter.result({
-  "duration": 4485580400,
+  "duration": 3751932500,
   "status": "passed"
 });
 formatter.match({
   "location": "BugStepDefn.bugzilla_i_enter_login_details_and_navigate_to_Product_Selection()"
 });
 formatter.result({
-  "duration": 7924879300,
+  "duration": 3944247000,
   "status": "passed"
 });
 formatter.match({
   "location": "TestProductBugStepDefnOne.testproduct_Test_Product_and_navigate_submit_bug_page()"
 });
 formatter.result({
-  "duration": 5779595100,
+  "duration": 3084615600,
   "status": "passed"
 });
 formatter.match({
@@ -256,29 +256,29 @@ formatter.match({
   "location": "TestProductBugsStepDefnTwo.testproduct_Enter_Componente_as_Version_as_Sev_as_HW_as_Os_as_Priority_as_Sum_Desc(String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1492156700,
+  "duration": 1199833500,
   "status": "passed"
 });
 formatter.match({
   "location": "TestProductBugsStepDefnTwo.testproduct_click_on_Submit_Bug()"
 });
 formatter.result({
-  "duration": 4564949600,
+  "duration": 4753916200,
   "status": "passed"
 });
 formatter.match({
   "location": "TestProductBugsStepDefnTwo.testproduct_am_summary_page_and_i_logout()"
 });
 formatter.result({
-  "duration": 2447926200,
+  "duration": 2230598600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 902592200,
+  "duration": 4498685500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9569713500,
+  "duration": 7850422700,
   "status": "passed"
 });
 formatter.scenario({
@@ -338,42 +338,42 @@ formatter.match({
   "location": "BugStepDefn.bugzilla_i_am_at_Bugzilla_Homepage()"
 });
 formatter.result({
-  "duration": 3059177800,
+  "duration": 4724105300,
   "status": "passed"
 });
 formatter.match({
   "location": "BugStepDefn.bugzilla_i_click_on_file_a_bug_and_navigate_to_login_page()"
 });
 formatter.result({
-  "duration": 3782558600,
+  "duration": 2705318200,
   "status": "passed"
 });
 formatter.match({
   "location": "BugStepDefn.bugzilla_i_enter_login_details_and_navigate_to_Product_Selection()"
 });
 formatter.result({
-  "duration": 3577675500,
+  "duration": 3441500200,
   "status": "passed"
 });
 formatter.match({
   "location": "BugStepDefn.bugzilla_i_click_on_Home_button()"
 });
 formatter.result({
-  "duration": 3328982100,
+  "duration": 2349881100,
   "status": "passed"
 });
 formatter.match({
   "location": "BugStepDefn.bugzilla_i_click_on_New_Button()"
 });
 formatter.result({
-  "duration": 2698981200,
+  "duration": 3032609100,
   "status": "passed"
 });
 formatter.match({
   "location": "TestProductBugStepDefnOne.testproduct_Test_Product_and_navigate_submit_bug_page()"
 });
 formatter.result({
-  "duration": 3688346600,
+  "duration": 2732899400,
   "status": "passed"
 });
 formatter.match({
@@ -414,25 +414,25 @@ formatter.match({
   "location": "TestProductBugsStepDefnTwo.testproduct_Enter_Componente_as_Version_as_Sev_as_HW_as_Os_as_Priority_as_Sum_Desc(String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1010574800,
+  "duration": 1062496500,
   "status": "passed"
 });
 formatter.match({
   "location": "TestProductBugsStepDefnTwo.testproduct_click_on_Submit_Bug()"
 });
 formatter.result({
-  "duration": 3230472500,
+  "duration": 4058055400,
   "status": "passed"
 });
 formatter.match({
   "location": "TestProductBugsStepDefnTwo.testproduct_am_summary_page_and_i_logout()"
 });
 formatter.result({
-  "duration": 3307251900,
+  "duration": 4567532900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 984514000,
+  "duration": 3061160500,
   "status": "passed"
 });
 });

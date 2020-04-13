@@ -157,8 +157,8 @@
 					<testFailureIgnore>false</testFailureIgnore>
 					
 					<includes>
-					  <include>**/*Runner.java</include>
-					  
+					  <!-- <include>**/*Runner.java</include> -->
+					  <include>${runner.name}</include>
 					</includes>
 						<suiteXmlFiles>
 							<!-- <suiteXmlFile>${testngxml.location}/testng.xml</suiteXmlFile> -->
